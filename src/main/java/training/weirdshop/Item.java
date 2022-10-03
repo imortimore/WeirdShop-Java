@@ -1,5 +1,6 @@
 package training.weirdshop;
 
+//parent class
 public class Item {
 
     public String name;
@@ -18,4 +19,14 @@ public class Item {
     public String toString() {
         return this.name + ", " + this.sellIn + ", " + this.quality;
     }
+
+
+    public void updateQuality(){}
+
+
+
+
+
+
 }
+
