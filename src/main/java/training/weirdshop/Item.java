@@ -21,7 +21,16 @@ public class Item {
     }
 
 
-    public void updateQuality(){}
+    public void increaseQuality(){
+        if (this.quality<50){
+            ++this.quality;
+        }
+    }
+    public void decreaseQuality(){
+        if (this.quality>0){
+            --this.quality;
+        }
+    }
 
 
 
